@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,6 +15,7 @@
         android:theme="@style/Theme.DCV"
         tools:targetApi="31">
         <activity
+            android:configChanges="uiMode|orientation|screenSize|screenLayout"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
