@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".HdrPopup">
 
-<androidx.media3.ui.PlayerView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/player_view"
-    app:show_buffering="when_playing"
-    app:show_shuffle_button="true"
-/>
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="101dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="101dp"
+        android:text="HdrPopupLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
