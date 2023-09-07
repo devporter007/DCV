@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         super.onStop()
         releasePlayer()
     }
-    private val urlOfVideo = "https://www.dropbox.com/s/tofb56970h4vpq6/Zack.Snyders.Justice.League.2021.2160p.HMAX.WEB-DL.DDP5.1.Atmos.HDR.HEVC-EVO.mkv?raw=1"
+    private val urlOfVideo = "https://file-examples.com/storage/fe235481fb64f1ca49a92b5/2017/04/file_example_MP4_480_1_5MG.mp4"
     private fun initializePlayer(){
         player = ExoPlayer.Builder(this)
             .build()
